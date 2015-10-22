@@ -47,6 +47,7 @@ public class CustomerApp {
 		System.out.println("Customer(s): ");
 		for(Customer cust:customerList)
 		{
+			System.out.println("Company ID: " + cust.getCompany_id());
 			System.out.println(cust.getTitle() + " " + cust.getFullName());
 			System.out.println(cust.getStreetAddress());
 			System.out.println(cust.getCity() + ", " + cust.getState() + " " + cust.getZip());
